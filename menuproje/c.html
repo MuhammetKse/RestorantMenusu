@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="a.css">
+<title>Ürünler</title>
+
+<style>
+  
+  .product {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: inline-block; /* Ürünlerin yan yana sıralanması için */
+    width: calc(33.33% - 20px); /* Ürünlerin genişliği (üçlü sıralama için) */
+    box-sizing: border-box; /* Kenar çerçevesinin genişlik ve yüksekliğiyle birlikte hesaplanması için */
+    vertical-align: top; /* İçeriklerin üst kısımlarını hizalamak için */
+    box-shadow:
+    1px 1px #373737,
+    2px 2px #373737,
+    3px 3px #373737,
+    4px 4px #373737,
+    5px 5px #373737,
+    6px 6px #373737;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    transition: .5s ease;
+    
+}
+
+  .product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .product h4 {
+    margin-top: 0;
+  }
+  .shadow img {
+    transition: .5s ease;
+  }
+
+  .shadow img:hover{
+    box-shadow:
+    1px 1px #373737,
+    2px 2px #373737,
+    3px 3px #373737,
+    4px 4px #373737,
+    5px 5px #373737,
+    6px 6px #373737;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    transition: .5s ease;
+  }
+  
+  .productexp p1{
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+
+
+<p data-item='BOSTON'>BOSTON</p>
+
+<section>
+  
+  <nav>
+    <ul class="menuItems">
+      <li><a href='a.html' data-item='Tatlılar'>Tatlılar</a></li>
+      <li><a href='b.html' data-item='İçecekler'>İçecekler</a></li>
+      <li><a href='c.html' data-item='Yemekler'>Yemekler</a></li>
+      
+    </ul>
+  </nav>
+
+</section>
+
+
+
+<div class="product">
+  <div class="productTilte"><h3>Hamburger</h3></div>
+  <p>
+
+  </p>
+  <div class="shadow"><img src="img/i.webp" alt="Ürün 1" width="200px"></div>
+
+ <div class="productexp"> <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, suscipit.</p1></div>
+</div>
+
+<div class="product">
+  <div class="productTilte"><h3>Mercimek Çorbası</h3></div>
+  <p>
+    
+  </p>
+  <div class="shadow"><img src="img/i.webp" alt="Ürün 1" width="200px"></div>
+  <div class="productexp"> <p1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, eaque</p1></div>
+</div>
+
+<div class="product">
+  <div class="productTilte"><h3>Pirzola</h3></div>
+  <p>
+    
+  </p>
+  <div class="shadow"><img src="img/i.webp" alt="Ürün 1" width="200px"></div>
+  <div class="productexp"> <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, suscipit.</p1></div>
+</div>
+<div class="product">
+  <div class="productTilte"><h3>Mevsim Salata</h3></div>
+  <p>
+
+  </p>
+  <div class="shadow"><img src="img/i.webp" alt="Ürün 1" width="200px"></div>
+
+ <div class="productexp"> <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, suscipit.</p1></div>
+</div>
+
+<div class="product">
+  <div class="productTilte"><h3>Antrikot</h3></div>
+  <p>
+    
+  </p>
+  <div class="shadow"><img src="img/i.webp" alt="Ürün 1" width="200px"></div>
+  <div class="productexp"> <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, suscipit.</p1></div>
+</div>
+
+<div class="product">
+  <div class="productTilte"><h3>Kaburga</h3></div>
+  <p>
+    
+  </p>
+  <div class="shadow"><img src="img/i.webp" alt="Ürün 1" width="200px"></div>
+  <div class="productexp"> <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, suscipit.</p1></div>
+</div>
+
+
+    
+
+    <footer class="footer">
+    <div>
+        <ul>
+            <li><a class="as" href="https://twitter.com/">Twitter</a></li>
+            <li><a class="as" href="https://www.instagram.com/">Instagram</a></li>
+            <li><a class="as" href="https://www.linkedin.com/in/muhammet-kose-277693261/">Linkedn</a></li>
+            <li><a class="as" href="https://github.com/MuhammetKse">Github</a></li>
+        </ul>
+    </div>
+</footer>
+
+      
+</body>
+</html>
